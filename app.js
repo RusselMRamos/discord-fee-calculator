@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+const Discord = require('app.js');
 const bot = new Discord.Client(NzI1MTcxMjM1ODcyNTcxNDY0.XvK4fA.e3oDIGmjT-4R-S2taA5LjW0bSwA);
 
 require('dotenv').config();
