@@ -10,7 +10,7 @@ const fees = {
   Goat: n => 0.095 * n + fees.Paypal(n - 0.095*n),
 }
 
-bot.on('message', msg => {
+client.on('message', msg => {
   if (msg.author.bot) return;
   if (!msg.content.startsWith('!fee')) return;
   const [,number] = msg.content.split(' ');
