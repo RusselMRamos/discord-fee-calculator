@@ -29,5 +29,5 @@ bot.on('message', msg => {
   msg.channel.send(embed);
 });
 
-client.login(process.env.NzI1MTcxMjM1ODcyNTcxNDY0.XvK4fA.e3oDIGmjT-4R-S2taA5LjW0bSwA);
+client.login(NzI1MTcxMjM1ODcyNTcxNDY0.XvK4fA.e3oDIGmjT-4R-S2taA5LjW0bSwA);
 
